@@ -259,7 +259,7 @@ class ViewController: UIViewController {
         if inputcheck == "" {
             resultLabel.text = ""
         } else if 100000000 <= (inputField.text! as NSString).doubleValue {
-            resultLabel.text = "Input is too large"
+            resultLabel.text = "Input Is Too Large"
         } else {
             var s: String
             s = ""
